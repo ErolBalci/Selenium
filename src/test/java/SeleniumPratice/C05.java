@@ -52,7 +52,7 @@ public class C05 {
         if (sonuç.contains(expectedİcerik)){
             System.out.println("Uyarı yazısı görünüyor Test PASSED");
         }else {
-            System.out.println("\"Uyarı yazısı görünmüyor Test FAILED\"");
+            System.out.println("Uyarı yazısı görünmüyor Test FAILED");
 
 
     }
