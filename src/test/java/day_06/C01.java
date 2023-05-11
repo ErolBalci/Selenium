@@ -1,8 +1,5 @@
 package day_06;
 
-import java.time.LocalDate;
-import java.util.Arrays;
-import java.util.Random;
 import java.util.Scanner;
 
 public class C01 {

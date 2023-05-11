@@ -27,7 +27,7 @@ WebElement aramasonucuElementi=driver.findElement(By.className("sg-col-inner"));
         System.out.println(aramasonucuElementi.getText());
         // 4- Listeden ilk urunun resmine tıklayın.
 
-        List<WebElement> urunResimElementleriList =driver.findElements(By.className("s-image"));
+        List<WebElement> urunResimElementleriList =driver.findElements(By.xpath("//*[@id=\"search\"]/div[1]/div[1]/div/span[1]/div[1]/div[2]/div/div/div/div/div/div/div[1]/span/a/div/img"));
         urunResimElementleriList.get(0).click();
 
 
