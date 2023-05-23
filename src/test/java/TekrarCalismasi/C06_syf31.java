@@ -28,7 +28,7 @@ public class C06_syf31 {
     // 3. Sayfa URL'sinin “youtube” içerip içermediğini (contains) doğrulayın, içermiyorsa doğru URL'yi yazdırın.
         expectedIçerik="youtube";
         String actualUrl=driver.getCurrentUrl();
-        if (actualTitle.contains(expectedIçerik)){
+        if (actualUrl.contains(expectedIçerik)){
             System.out.println("Url youtube içeriyor, Test Passed");
         }else {
             System.out.println("Url youtube içermiyor, Url: " +driver.getCurrentUrl());
@@ -54,7 +54,7 @@ public class C06_syf31 {
     // 10.Sayfa URL'sinin https://www.amazon.com/ olup olmadığını doğrulayın, degilse doğru URL'yi yazdırın
         expectedIçerik="https://www.amazon.com/";
         actualUrl=driver.getCurrentUrl();
-        if (actualTitle.contains(expectedIçerik)){
+        if (actualUrl.contains(expectedIçerik)){
             System.out.println("Url https://www.amazon.com/ içeriyor, Test Passed");
         }else {
             System.out.println("Url https://www.amazon.com/ içermiyor, Url: " +driver.getCurrentUrl());
