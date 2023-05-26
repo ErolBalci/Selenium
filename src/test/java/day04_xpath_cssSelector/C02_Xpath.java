@@ -17,7 +17,7 @@ public class C02_Xpath {
 
        //1- https://the-internet.herokuapp.com/add_remove_elements/ adresine gidin
         driver.get(" https://the-internet.herokuapp.com/add_remove_elements/");
-       //2- Add Element butonuna ba5555555555555555555555555555sin
+       //2- Add Element butonuna basin
       driver.findElement(By.xpath("//button[@onclick='addElement()']")).click();
        //3- Delete butonu’nun gorunur oldugunu test edin.
 

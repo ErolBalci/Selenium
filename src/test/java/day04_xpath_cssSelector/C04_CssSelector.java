@@ -30,6 +30,7 @@ public class C04_CssSelector {
         }else{
             System.out.println("Title testi FAILED");
         }
+        Thread.sleep(3000);
         //6-  Gift Cards sekmesine basin
         driver.findElement(By.xpath("(//a[@class='nav-a  '])[4]")).click();
         //7-  Birthday butonuna basin
