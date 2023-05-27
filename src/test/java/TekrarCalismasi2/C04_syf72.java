@@ -23,9 +23,13 @@ public class C04_syf72 {
       //  3- “Samsung headphones” ile arama yapalim
         aramaKutusu.sendKeys("Samsung headphones"+ Keys.ENTER);
       //  4- Bulunan sonuc sayisini yazdiralim
-
+        driver.findElement(By.xpath("//*[@id=\"search\"]/span/div/h1/div/div[1]/div/div/span[1]")).getText();
       //  5- Ilk urunu tiklayalim
+        driver.findElement(By.xpath("(// img[@class='s-image'])[1]")).click();
       //  6- Sayfadaki tum basliklari yazdiralim
+        System.out.println(driver.getTitle());
+
+        driver.close();
 
     }
 }
