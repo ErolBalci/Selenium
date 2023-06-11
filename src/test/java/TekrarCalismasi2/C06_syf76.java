@@ -44,9 +44,9 @@ public class C06_syf76 {
         //sonucSayisi.replace(".", "");
         System.out.println();
         System.out.println(sonucSayisi);
-        sonucSayisi.replaceAll(".","\"\"");
+       String sonuc= sonucSayisi.replaceAll("\\D","");
 
-      int sonucSayisiSon= Integer.parseInt(sonucSayisi);
+      int sonucSayisiSon= Integer.parseInt(sonuc);
         if (sonucSayisiSon > 10000000) {
             System.out.println("Test Passed");
         } else {
